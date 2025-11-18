@@ -27,7 +27,8 @@ function DynamicPage({ title, data }) {
             ) : (
                 <>
                     <h1>{title}</h1>
-
+                        
+                    <div className="card-grid">
                     {data.map((item) => (
                         <Card
                             key={item.id}
@@ -37,6 +38,7 @@ function DynamicPage({ title, data }) {
                             onClick={() => setSelectedItem(item)}
                         />
                     ))}
+                    </div>
                 </>
             )}
         </div>
