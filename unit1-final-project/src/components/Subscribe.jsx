@@ -13,7 +13,7 @@ function Subscribe() {
                 placeholder="Enter your email"
                 required
                 />
-                <Button text="Subscribe"/>
+                <Button label="Subscribe" className="subscribe-button"/>
             </form>
             <Copyright />
         </div>
