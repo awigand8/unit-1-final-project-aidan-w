@@ -1,0 +1,33 @@
+import { Routes, Route, Link } from 'react-router';
+import Home from './components/Home';
+import About from './components/About';
+import Attractions from './components/Attractions';
+import Food from './components/Food';
+import Subscribe from './components/Subscribe';
+import './App.css';
+
+function App() {
+ return (
+  <div className="App">
+    <nav className="navbar">
+       <div className="navbar-title">
+          <Link to="/home">Meet Me in STL</Link>
+        </div>
+      <ul className="navbar-links">
+        <li><Link to="/about">About</Link></li>
+        <li><Link to="/attractions">Attractions</Link></li>
+        <li><Link to="/food">Food</Link></li>
+        <li><Link to="/subscribe">Subscribe</Link></li>
+      </ul>
+    </nav>
+    <Routes>
+      <Route path="/home" element={<Home />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/attractions" element={<Attractions />} />
+      <Route path="/food" element={<Food />} />
+      <Route path="/subscribe" element={<Subscribe />} />
+    </Routes>
+  </div>
+ );
+}
+export default App;
