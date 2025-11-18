@@ -75,5 +75,45 @@
   background-color: #333;
 }
 
+@media (min-width: 1200px) {
+  .navbar-title a {
+    font-size: 2rem;
+  }
+
+  .navbar-links {
+    gap: 2.5rem;
+  }
+}
+
+@media (max-width: 1199px) and (min-width: 768px) {
+  .navbar-title a {
+    font-size: 1.5rem;
+  }
+
+  .navbar-links {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    flex-direction: column; /* stack title and links */
+    align-items: flex-start;
+  }
+
+  .navbar-links {
+      flex-direction: column; /* stack links vertically */
+    align-items: center;     /* center links */
+    gap: 0.8rem;            /* spacing between each link */
+    width: 100%;
+  }
+
+  .navbar-title a {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+}
+
+
 
 
