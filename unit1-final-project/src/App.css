@@ -50,7 +50,7 @@
   display: block;
   margin: 10px auto;
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: darkred;
   color: white;
   border: none;
   border-radius: 5px;
@@ -69,10 +69,25 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-weight: bold;
 }
 
 .back-button:hover {
   background-color: #333;
+}
+.add-button {
+  margin: 15px 0;
+  background-color: crimson;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.add-button:hover {
+  background-color: brown;
 }
 
 @media (min-width: 1200px) {
