@@ -1,9 +1,30 @@
 import Copyright from "./Copyright";
+import Button from './Button';
 
-function BucketList() {
+function BucketList( {bucketList, onDelete}) {
     return (
         <div>
         <h1>Bucket List</h1>
+
+        <div className="bucket-list-container">
+            {bucketList.length === 0 && <p>No items yet</p>}
+
+        <ol>
+            {bucketList.map((item, index) => 
+                <li key={index}>
+                    <span className="bucketlist-item">
+                        {item}
+                    <Button 
+                    label="Delete"
+                    className="delete-button"
+                    onClick={ () => onDelete(item)}
+                    />
+                    </span>
+                </li>
+            )}
+        </ol>
+        </div>
+
         <Copyright />
         </div>
     );
