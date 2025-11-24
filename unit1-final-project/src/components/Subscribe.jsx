@@ -2,7 +2,7 @@ import Copyright from './Copyright';
 import Button from './Button';
 
 function Subscribe() {
-    return(
+    return (
         <div className="subscribe">
             <h1>Subscribe to Us!</h1>
             <p>Get the latest updates about attractions and events in STL!</p>
