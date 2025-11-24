@@ -45,26 +45,6 @@
   margin: 20px 0;
 }
 
-.aboutus p {
-  font-size: 1.2rem;
-  line-height: 1.7;
-  max-width: 700px;
-  margin: 20px auto 40px;
-}
-
-footer {
-  margin-top: 40px;
-  padding: 25px 15px;
-  background: #f7f7f7;
-  border-radius: 12px;
-  border: 1px solid #ddd;
-}
-
-footer h3 {
-  margin-bottom: 15px;
-  font-size: 1.5rem;
-}
-
 .contact-table {
   width: 100%;
   max-width: 450px;
@@ -99,21 +79,6 @@ footer h3 {
   text-align: center;
   margin-top: 50px;
   font-family: Arial, sans-serif;
-}
-
-.button {
-  display: block;
-  margin: 10px auto;
-  padding: 10px 20px;
-  background-color: darkred;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.button:hover {
-  background-color: #0056b3;
 }
 
 .back-button {
@@ -189,10 +154,6 @@ footer h3 {
   margin-top: 50px;
 }
 
-.bucket-list-h1 {
-  text-align: center;
-}
-
 ol {
   padding: 0;
 }
@@ -206,7 +167,6 @@ ol {
   border-radius: 5px;
   display: flex;
   align-items: center;
-
 }
 
 .delete-button {
@@ -214,7 +174,7 @@ ol {
   padding: 8px 14px;
   font-size: 0.9rem;
   font-weight: 600;
-  color: #555;                         /* soft gray to match border */
+  color: #555;                        
   background-color: transparent;
   border: 2px solid #ccc;              /* matches list border tone */
   border-radius: 5px;
