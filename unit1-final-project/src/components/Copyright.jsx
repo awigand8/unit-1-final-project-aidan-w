@@ -2,9 +2,9 @@ function Copyright() {
 
   return (
     <footer style={styles.footer}>
-      <p style={styles.text}>
+      <p1 style={styles.text}>
         © Meet Me in STL
-      </p>
+      </p1>
     </footer>
   );
 }
