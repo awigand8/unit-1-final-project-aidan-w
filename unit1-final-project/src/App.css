@@ -31,13 +31,68 @@
   text-decoration: none;
 }
 
-.aboutus .skyline {
+.aboutus {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.skyline {
   width: 100%;
-  max-width: 800px;
-  height:auto;
+  max-width: 750px;
   border-radius: 10px;
-  margin: 1rem auto;
-  display:block;
+  margin: 20px 0;
+}
+
+.aboutus p {
+  font-size: 1.2rem;
+  line-height: 1.7;
+  max-width: 700px;
+  margin: 20px auto 40px;
+}
+
+footer {
+  margin-top: 40px;
+  padding: 25px 15px;
+  background: #f7f7f7;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+}
+
+footer h3 {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.contact-table {
+  width: 100%;
+  max-width: 450px;
+  margin: 0 auto;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.contact-table td {
+  padding: 12px 10px;
+  font-size: 1.1rem;
+}
+
+.contact-table tr td:first-child {
+  font-weight: bold;
+  width: 110px;
+}
+
+.social-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.contact-table td {
+  display: flex;
+  align-items: center;
 }
 
 .dynamic-container {
@@ -117,7 +172,7 @@
   }
 
   .navbar-links {
-      flex-direction: column; /* stack links vertically */
+    flex-direction: column; /* stack links vertically */
     align-items: center;     /* center links */
     gap: 0.8rem;            /* spacing between each link */
     width: 100%;
@@ -128,6 +183,54 @@
     margin-bottom: 0.5rem;
   }
 }
+
+.bucket-list-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.bucket-list-h1 {
+  text-align: center;
+}
+
+ol {
+  padding: 0;
+}
+
+.bucket-list-item {
+  font-size: 2 rem;
+  font-weight: bold;
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 3px solid hsla(0, 0%, 85%, 0.75);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+
+}
+
+.delete-button {
+  margin-left: auto;                   /* pushes it to the right side */
+  padding: 8px 14px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #555;                         /* soft gray to match border */
+  background-color: transparent;
+  border: 2px solid #ccc;              /* matches list border tone */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.delete-button:hover {
+  background-color: #f5f5f5;
+  border-color: #b3b3b3;
+}
+
+.delete-button:active {
+  transform: scale(0.95);
+}
+
 
 
 
