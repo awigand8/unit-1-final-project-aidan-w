@@ -27,6 +27,7 @@ function handleDeleteItem(name) {
 
  return (
   <div className="App">
+    <title>Meet Me in STL</title>
     <nav className="navbar">
        <div className="navbar-title">
           <Link to="/home">Meet Me in STL</Link>
