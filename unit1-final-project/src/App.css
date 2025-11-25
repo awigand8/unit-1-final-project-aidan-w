@@ -225,4 +225,26 @@ ol {
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.2s ease;
+<<<<<<< HEAD
 }
+
+.home-container {
+  background-image: url('/images/pexels-nick-haynes-131642262-10169761.jpg');
+  background-size: cover;
+  background-position: center;
+
+  min-height: 100vh; 
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;     
+
+  color: white; 
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7); 
+  padding: 20px;
+}
+=======
+}
+>>>>>>> 94c9ce49b12a1a102d8e0f8d5406ffc92a9f8e90
