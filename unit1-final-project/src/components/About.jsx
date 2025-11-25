@@ -6,9 +6,9 @@ function About() {
             <h1>About Us</h1>
             <img
                 src="/images/stlpic.jpg" alt="St. Louis skyline at night" className="skyline" />
-            <p>Meet Me in STL makes exploring St. Louis easy and fun. We bring together the city's 
+            <p>Meet Me in STL makes exploring St. Louis easy and fun. We bring together the city's
                 best attractions, restaurants, and experiences all in one place, helping you discover
-                 new favorites and plan your next adventure. Whether you live here or are visiting for the first time, our goal is to help you experience the heart, history, and flavor of St. Louis.
+                new favorites and plan your next adventure. Whether you live here or are visiting for the first time, our goal is to help you experience the heart, history, and flavor of St. Louis.
             </p>
             <footer>
                 <h3>Contact Us!</h3>

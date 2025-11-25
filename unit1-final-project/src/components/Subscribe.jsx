@@ -9,11 +9,11 @@ function Subscribe() {
 
             <form>
                 <input
-                type="email"
-                placeholder="Enter your email"
-                required
+                    type="email"
+                    placeholder="Enter your email"
+                    required
                 />
-                <Button label="Subscribe" className="subscribe-button"/>
+                <Button label="Subscribe" className="subscribe-button" />
             </form>
             <Copyright />
         </div>

@@ -1,6 +1,6 @@
 import "../Card.css";
 
-function Card( { title, shortdesc, description, image, onClick} ) {
+function Card({ title, shortdesc, description, image, onClick }) {
     return (
         <div className="card" onClick={onClick}>
             <div className="card-container">

@@ -1,13 +1,13 @@
 import Copyright from "./Copyright";
 import Button from './Button';
 
-function BucketList( {bucketList, onDelete}) {
+function BucketList({ bucketList, onDelete }) {
     return (
         <div>
-        <h1>Bucket List</h1>
+            <h1>Bucket List</h1>
 
-        <div className="bucket-list-container">
-            {bucketList.length === 0 && <p>No items yet</p>}
+            <div className="bucket-list-container">
+                {bucketList.length === 0 && <p>Nothing yet...</p>}
 
         <ol>
             {bucketList.map((item, index) => 
@@ -25,7 +25,7 @@ function BucketList( {bucketList, onDelete}) {
         </ol>
         </div>
 
-        <Copyright />
+            <Copyright />
         </div>
     );
 }
