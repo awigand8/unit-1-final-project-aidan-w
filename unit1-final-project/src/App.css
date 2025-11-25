@@ -220,4 +220,20 @@ ol {
   transition: all 0.2s ease;
 }
 
+.home-container {
+  background-image: url('/images/pexels-nick-haynes-131642262-10169761.jpg');
+  background-size: cover;
+  background-position: center;
 
+  min-height: 100vh; 
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;     
+
+  color: white; 
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7); 
+  padding: 20px;
+}

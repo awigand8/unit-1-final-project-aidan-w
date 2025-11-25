@@ -7,7 +7,7 @@ function BucketList( {bucketList, onDelete}) {
         <h1>Bucket List</h1>
 
         <div className="bucket-list-container">
-            {bucketList.length === 0 && <p>No items yet</p>}
+            {bucketList.length === 0 && <p>Nothing yet...</p>}
 
         <ol>
             {bucketList.map((item, index) => 
