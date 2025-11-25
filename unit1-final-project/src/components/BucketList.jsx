@@ -12,7 +12,7 @@ function BucketList( {bucketList, onDelete}) {
         <ol>
             {bucketList.map((item, index) => 
                 <li key={index}>
-                    <span className="bucketlist-item">
+                    <span className="bucket-list-item">
                         {item}
                     <Button 
                     label="Delete"
