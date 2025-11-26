@@ -2,9 +2,9 @@ function Copyright() {
 
   return (
     <footer style={styles.footer}>
-      <p1 style={styles.text}>
+      <p style={styles.text}>
         © Meet Me in STL
-      </p1>
+      </p>
     </footer>
   );
 }
@@ -15,11 +15,13 @@ const styles = {
     padding: "10px 0",
     marginTop: "40px",
     width: "100%",
-    fontWeight: "600"
+    fontWeight: "600",
+    textAlign: "center",
   },
   text: {
-    margin: 0,
-    fontSize: "0.9rem",
+    margin: "20px auto 40px",
+    fontSize: "1.2rem",
+    textAlign: "center",
   },
 };
 
