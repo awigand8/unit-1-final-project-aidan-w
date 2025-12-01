@@ -25,14 +25,14 @@ function About() {
                         <tr>
                             <td>Facebook:</td>
                             <td>
-                                <img src="/images/react-icons/square-facebook-brands-solid-full.svg" alt="Facebook" className="social-icon" />
+                                <img src="images/react-icons/square-facebook-brands-solid-full.svg" alt="Facebook" className="social-icon" />
                                 MeetMeInSTL
                             </td>
                         </tr>
                         <tr>
                             <td>Instagram:</td>
                             <td>
-                                <img src="/images/react-icons/square-instagram-brands-solid-full.svg" alt="Instagram" className="social-icon" />
+                                <img src="images/react-icons/square-instagram-brands-solid-full.svg" alt="Instagram" className="social-icon" />
                                 @MeetMeInSTL
                             </td>
                         </tr>
